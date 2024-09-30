@@ -3,6 +3,11 @@ import videobg from "../src/assets/videoplayback (1).mp4";
 import image from "../src/assets/Imagem do WhatsApp de 2024-09-24 à(s) 00.35.44_0bbccc27.jpg";
 import footerImage from "../src/assets/Copyright ©️ Tg Dev - 2024.svg";
 import TgHub from '../src/assets/tghub.jpg'
+import climaTempo from "./assets/climatempo.jpg"
+import moneyManager from "../src/assets/moneyManagerPhoto.jpg"
+import marioGame from "../src/assets/mundodomario.png" 
+import tecnicRecruiter from "../src/assets/tecnicrecruiter.jpg"
+import todoList from "../src/assets/todolist.jpg"
 import { FaHtml5, FaReact } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import {
@@ -26,7 +31,7 @@ export function PagePortfolio() {
       description:
         "I created a website to help people have financial control, being able to add inflows or outflows of money.",
       technologies: ["React", " Tailwind CSS", " Typescript"],
-      imageProject: "../src/assets/moneyManagerPhoto.jpg",
+      imageProject: moneyManager,
       url: "https://money-manager-alpha.vercel.app",
       repository: "https://github.com/tiagolopes-dev/MoneyManager",
     },
@@ -35,7 +40,7 @@ export function PagePortfolio() {
       description:
         "I created a website that helps people organize themselves, optimize their tasks, and list the tasks done.",
       technologies: ["React", " Tailwind CSS", " Typescript"],
-      imageProject: "../src/assets/todolist.jpg",
+      imageProject: todoList,
       url: "https://todolist-psi-black.vercel.app",
       repository: "https://github.com/tiagolopes-dev/todolist",
     },
@@ -44,7 +49,7 @@ export function PagePortfolio() {
       description:
         "I created a website where people can see the weather forecast for the day in any region of the world.",
       technologies: ["Html", " CSS", " Typescript", " API Public Weather"],
-      imageProject: "../src/assets/climatempo.jpg",
+      imageProject: climaTempo,
       url: "https://tiagolopes-dev.github.io/climatempo.jpg",
       repository: "https://github.com/tiagolopes-dev/Clima-Tempo",
     },
@@ -53,7 +58,7 @@ export function PagePortfolio() {
       description:
         "I created a website where a company designed it and I had to redo it the same way.",
       technologies: ["NextJS", " Tailwind CSS", " Typescript"],
-      imageProject: "../src/assets/tecnicrecruiter.jpg",
+      imageProject: tecnicRecruiter,
       url: "https://russel-teste-frontend.vercel.app",
       repository: "https://github.com/tiagolopes-dev/russel-teste-frontend",
     },
@@ -71,7 +76,7 @@ export function PagePortfolio() {
       description:
         "I created a website where people can see synopses and trailers of some films chosen by me.",
       technologies: ["Html", " Css", " JavaScript"],
-      imageProject: "../src/assets/mundodomario.png",
+      imageProject: marioGame,
       url: "https://tiagolopes-dev.github.io/mario-game/",
       repository: "https://github.com/tiagolopes-dev/mario-game",
     },

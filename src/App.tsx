@@ -16,6 +16,8 @@ import { CertificateCard } from "./components/CardsCertificates";
 import { MdOutgoingMail } from "react-icons/md";
 import { MobileHeader } from "./components/MenuMobile";
 
+
+
 export function PagePortfolio() {
   const projects = [
     {
@@ -23,6 +25,7 @@ export function PagePortfolio() {
       description:
         "I created a website to help people have financial control, being able to add inflows or outflows of money.",
       technologies: ["React", " Tailwind CSS", " Typescript"],
+      imageProject: "../src/assets/moneyManagerPhoto.jpg",
       url: "https://money-manager-alpha.vercel.app",
       repository: "https://github.com/tiagolopes-dev/MoneyManager",
     },
@@ -31,6 +34,7 @@ export function PagePortfolio() {
       description:
         "I created a website that helps people organize themselves, optimize their tasks, and list the tasks done.",
       technologies: ["React", " Tailwind CSS", " Typescript"],
+      imageProject: "../src/assets/todolist.jpg",
       url: "https://todolist-psi-black.vercel.app",
       repository: "https://github.com/tiagolopes-dev/todolist",
     },
@@ -39,7 +43,8 @@ export function PagePortfolio() {
       description:
         "I created a website where people can see the weather forecast for the day in any region of the world.",
       technologies: ["Html", " CSS", " Typescript", " API Public Weather"],
-      url: "https://tiagolopes-dev.github.io/Clima-Tempo/",
+      imageProject: "../src/assets/climatempo.jpg",
+      url: "https://tiagolopes-dev.github.io/climatempo.jpg",
       repository: "https://github.com/tiagolopes-dev/Clima-Tempo",
     },
     {
@@ -47,6 +52,7 @@ export function PagePortfolio() {
       description:
         "I created a website where a company designed it and I had to redo it the same way.",
       technologies: ["NextJS", " Tailwind CSS", " Typescript"],
+      imageProject: "../src/assets/tecnicrecruiter.jpg",
       url: "https://russel-teste-frontend.vercel.app",
       repository: "https://github.com/tiagolopes-dev/russel-teste-frontend",
     },
@@ -55,6 +61,7 @@ export function PagePortfolio() {
       description:
         "I created a website where people can see synopses and trailers of some films chosen by me.",
       technologies: ["Html", " Css", " JavaScript"],
+      imageProject: "../src/assets/tghub.jpg",
       url: "https://tiagolopes-dev.github.io/TgHub/index.html",
       repository: "https://github.com/tiagolopes-dev/TgHub",
     },
@@ -63,6 +70,7 @@ export function PagePortfolio() {
       description:
         "I created a website where people can see synopses and trailers of some films chosen by me.",
       technologies: ["Html", " Css", " JavaScript"],
+      imageProject: "../src/assets/mundodomario.png",
       url: "https://tiagolopes-dev.github.io/mario-game/",
       repository: "https://github.com/tiagolopes-dev/mario-game",
     },

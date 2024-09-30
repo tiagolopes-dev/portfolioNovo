@@ -2,6 +2,7 @@ import logo from "../src/assets/Screenshot_13-removebg-preview-1.svg";
 import videobg from "../src/assets/videoplayback (1).mp4";
 import image from "../src/assets/Imagem do WhatsApp de 2024-09-24 à(s) 00.35.44_0bbccc27.jpg";
 import footerImage from "../src/assets/Copyright ©️ Tg Dev - 2024.svg";
+import TgHub from '../src/assets/tghub.jpg'
 import { FaHtml5, FaReact } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import {
@@ -61,7 +62,7 @@ export function PagePortfolio() {
       description:
         "I created a website where people can see synopses and trailers of some films chosen by me.",
       technologies: ["Html", " Css", " JavaScript"],
-      imageProject: "../src/assets/tghub.jpg",
+      imageProject: TgHub,
       url: "https://tiagolopes-dev.github.io/TgHub/index.html",
       repository: "https://github.com/tiagolopes-dev/TgHub",
     },

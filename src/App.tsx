@@ -78,7 +78,7 @@ export function PagePortfolio() {
       technologies: ["Html", " Css", " JavaScript"],
       imageProject: marioGame,
       url: "https://tiagolopes-dev.github.io/mario-game/",
-      repository: "https://github.com/tiagolopes-dev/mario-game",
+      repository: "https://github.com/tiagolopes-dev/mar,io-game",
     },
   ];
 
@@ -228,7 +228,7 @@ export function PagePortfolio() {
                     <RiLinkedinFill size={40} />
                   </a>
                   <a
-                    href="https://www.tomail@tiagolopesc.dev"
+                    href="mailto:tiagolopesc.dev@gmail.com"
                     target="blank"
                     className="hover:bg-white hover:text-black hover:rounded-md duration-300 text-white"
                   >

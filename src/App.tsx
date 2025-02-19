@@ -116,7 +116,7 @@ export function PagePortfolio() {
   ];
 
   const goToCv = () => {
-    window.open("https://drive.google.com/file/d/1su5L_vHT8nvZeKaGj6HbpMJvKMGtk7Vh/view", "_blank");
+    window.open("https://drive.google.com/file/d/1CU925k90YEvVaNI7I6VJ0L4vfH55BC9W/view?usp=sharing", "_blank");
   };
 
   return (

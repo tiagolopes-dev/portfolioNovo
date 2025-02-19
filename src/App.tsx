@@ -108,10 +108,15 @@ export function PagePortfolio() {
       institution: "Udemy",
       state: "in progress",
     },
+    {
+      name: "Aprimore suas habilidades de QA e torne-se um(a) Automatizador(a) de sucesso!",
+      institution: "Udemy",
+      state: "Completed",
+    },
   ];
 
   const goToCv = () => {
-    window.open("https://drive.google.com/file/d/1zYaxW1IMnKGdC_wUcGTf3K-7gX_8v8Ut/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1su5L_vHT8nvZeKaGj6HbpMJvKMGtk7Vh/view", "_blank");
   };
 
   return (

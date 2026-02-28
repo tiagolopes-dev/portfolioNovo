@@ -6,6 +6,7 @@ import TgHub from '../src/assets/tghub.jpg'
 import climaTempo from "./assets/climatempo.jpg"
 import moneyManager from "../src/assets/moneyManagerPhoto.jpg"
 import marioGame from "../src/assets/mundodomario.png" 
+import imageAlva from "../src/assets/imageAlva.jpeg"
 import tecnicRecruiter from "../src/assets/tecnicrecruiter.jpg"
 import todoList from "../src/assets/todolist.jpg"
 import { FaHtml5, FaReact } from "react-icons/fa";
@@ -74,11 +75,20 @@ export function PagePortfolio() {
     {
       name: "Mario Game",
       description:
-        "I created a website where people can see synopses and trailers of some films chosen by me.",
+        "I created a simple online Mario game, inspired on Flappy Bird",
       technologies: ["Html", " Css", " JavaScript"],
       imageProject: marioGame,
       url: "https://tiagolopes-dev.github.io/mario-game/",
       repository: "https://github.com/tiagolopes-dev/mar,io-game",
+    },
+    {
+      name: "Alvarenga dev",
+      description:
+        "As a freelancer, create multi-language portfolio and a links page for @alvarenga.dev in partnership with another developer.",
+      technologies: ["Html", "Tailwind", "NextJS", "i18n"],
+      imageProject: imageAlva,
+      url: "https://alvarenga.dev/pt/portfolio",
+      repository: "https://github.com/MateusLDev/alvarenga-dev-portfolio",
     },
   ];
 
@@ -113,10 +123,15 @@ export function PagePortfolio() {
       institution: "Udemy",
       state: "Completed",
     },
+    {
+      name: "Testes no React do Zero ao Avançado: Vitest, Cypress",
+      institution: "Udemy",
+      state: "Completed",
+    },
   ];
 
   const goToCv = () => {
-    window.open("https://drive.google.com/file/d/1CU925k90YEvVaNI7I6VJ0L4vfH55BC9W/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1n-Nn9g6Oh9xVTHS4kBwpbcTZmYUvDwa-/view?usp=sharing", "_blank");
   };
 
   return (
